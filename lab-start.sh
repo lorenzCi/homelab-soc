@@ -3,7 +3,7 @@ export LIBVIRT_DEFAULT_URI=qemu:///system
 
 RETI="default lan-utenti lan-server lan-security"
 FIREWALL="opnsense"
-ALTRE_VM="kali"
+ALTRE_VM="kali wazuh"
 
 for rete in $RETI; do
   echo "Accendo la rete $rete..."

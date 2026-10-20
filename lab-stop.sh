@@ -3,7 +3,7 @@ export LIBVIRT_DEFAULT_URI=qemu:///system
 
 RETI="lan-utenti lan-server lan-security default"
 FIREWALL="opnsense"
-ALTRE_VM="kali"
+ALTRE_VM="kali wazuh"
 
 for vm in $ALTRE_VM $FIREWALL; do
   echo "Spengo la VM $vm..."
